@@ -70,6 +70,5 @@ function showHome() {
     document.querySelector('.back').style.display = 'none';
     document.querySelector('.head').style.display = 'flex';
     document.querySelector('.search').style.display = 'none';
-
-  
+    location.reload();  
 }
